@@ -142,7 +142,6 @@ write_autodoc_index()
 # or your custom ones.
 extensions = [
     'sphinx.ext.autodoc',
-    'sphinx.ext.intersphinx',
     'sphinx.ext.todo',
     'sphinxcontrib.autohttp.flask',
     'wsmeext.sphinxext',
@@ -152,7 +151,6 @@ extensions = [
     'sphinxcontrib.pecanwsme.rest',
     'oslo.sphinx',
 ]
-
 wsme_protocols = ['restjson', 'restxml']
 
 todo_include_todos = True
